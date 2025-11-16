@@ -25,6 +25,19 @@ body{
 } */
 @media screen and (min-width:650px) and (max-width:800px) and (min-height:400px) and (max-height:650px){
     body{
-        background:linear-gradient(red, orange, yellow, green, blue, rgb(149, 0, 255),violet,)
+        background:linear-gradient(red, orange, yellow, green, blue, rgb(149, 0, 255),violet)
     }
 }
+img{
+    width: 400px;
+    height: 600px;
+}
+
+@media screen and (min-width:600px) and (max-width:850px) and (min-height:500px) and (max-height:700px){
+    img{
+        width: 200px;
+        height: 300px;
+
+    }
+}
+
